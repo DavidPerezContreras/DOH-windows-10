@@ -23,7 +23,7 @@ You can either:
 
 - Or clone it using Git:
   ```powershell
-  git clone https://github.com/DavidPerezContreras/DOH-windows-10
+  git clone https://github.com/x86david/DOH-windows-10
   ```
 
 ### 2. Enable Script Execution (Execute Powershell as ADMIN!!)
