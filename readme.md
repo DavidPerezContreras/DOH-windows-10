@@ -26,18 +26,41 @@ You can either:
   git clone https://github.com/DavidPerezContreras/DOH-windows-10
   ```
 
-### 2. Enable Script Execution
+### 2. Enable Script Execution (Execute Powershell as ADMIN!!)
   ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-### Run whatever you want:
+### Run whatever you want: (Execute Powershell as ADMIN!!)
   ```powershell
 .\enable-doh.ps1
 ```
   ```powershell
 .\set-dns.ps1
 ```
+
+
+
+Usage Example:
+
+
+PS C:\Users\YourUsername> .\set-dns.ps1
+Choose DNS configuration mode:
+1. Apply to all network adapters
+2. Select specific adapter(s)
+Enter 1 or 2: 2
+
+Available adapters:
+- Wi-Fi
+- Local Area Connection
+Enter adapter name(s), separated by commas: Wi-Fi, Local Area Connection
+Setting DNS for adapter: Wi-Fi
+Setting DNS for adapter: Local Area Connection
+✅ DNS settings applied to selected adapters.
+PS C:\Users\YourUsername>
+
+
+
 
 
 ### (Optional) Use ProtonVPN free tier for extra privacy
