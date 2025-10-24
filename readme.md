@@ -43,7 +43,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Usage Example:
 
-
+```powershell
 PS C:\Users\YourUsername> .\set-dns.ps1
 Choose DNS configuration mode:
 1. Apply to all network adapters
@@ -58,7 +58,7 @@ Setting DNS for adapter: Wi-Fi
 Setting DNS for adapter: Local Area Connection
 ✅ DNS settings applied to selected adapters.
 PS C:\Users\YourUsername>
-
+```
 
 
 
