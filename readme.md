@@ -23,7 +23,7 @@ You can either:
 
 - Or clone it using Git:
   ```powershell
-  git clone https://github.com/your-username/windows-doh-config.git
+  git clone https://github.com/DavidPerezContreras/DOH-windows-10
   ```
 
 ### 2. Enable Script Execution
@@ -41,4 +41,4 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
 ### (Optional) Use ProtonVPN free tier for extra privacy
-[ProtonVPN Pricing]https://protonvpn.com/pricing
+[ProtonVPN Pricing Link](https://protonvpn.com/pricing)
