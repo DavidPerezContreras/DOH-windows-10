@@ -63,5 +63,5 @@ PS C:\Users\YourUsername>
 
 
 
-### (Optional) Use ProtonVPN free tier for extra privacy
+### (Optional) Use ProtonVPN free tier for extra privacy (1 device free)
 [ProtonVPN Pricing Link](https://protonvpn.com/pricing)
